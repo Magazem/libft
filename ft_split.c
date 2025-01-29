@@ -81,3 +81,13 @@ char	**ft_split(char const *s, char c)
 	splitter(split, c, s, count);
 	return (split);
 }
+
+void	split_free(char **array)
+{
+	int	i;
+
+	i = 0;
+	while (array[i])
+		free(array[i++]);
+	free(array);
+}
