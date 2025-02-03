@@ -21,6 +21,7 @@ typedef struct s_list
 {
 	void			*content;
 	struct s_list	*next;
+	struct s_list	*prev;
 }					t_list;
 
 int					ft_isalpha(int c);
@@ -69,5 +70,6 @@ void				ft_lstdelone(t_list *lst, void (*del)(void *));
 void				ft_lstclear(t_list **lst, void (*del)(void *));
 void				ft_lstadd_front(t_list **lst, t_list *new);
 void				ft_lstadd_back(t_list **lst, t_list *new);
+t_list				*ft_lstfirst(t_list *lst);
 
 #endif
