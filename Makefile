@@ -2,6 +2,7 @@
 
 NAME	=   libft.a
 SRCS	=	ft_atoi.c \
+			ft_isspace.c \
 			ft_isalnum.c \
 			ft_strmapi.c \
 			ft_striteri.c \

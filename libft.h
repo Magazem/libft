@@ -6,7 +6,7 @@
 /*   By: ysuliman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/26 15:50:27 by ysuliman          #+#    #+#             */
-/*   Updated: 2024/03/07 17:28:05 by ysuliman         ###   ########.fr       */
+/*   Updated: 2025/02/10 16:05:50 by ysuliman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ typedef struct s_list
 }					t_list;
 
 int					ft_isalpha(int c);
+int					ft_isspace(int c);
 int					ft_isdigit(int D);
 int					ft_isalnum(int c);
 int					ft_isascii(int c);
