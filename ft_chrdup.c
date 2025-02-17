@@ -6,16 +6,18 @@
 /*   By: ysuliman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/17 16:07:26 by ysuliman          #+#    #+#             */
-/*   Updated: 2025/02/17 16:14:34 by ysuliman         ###   ########.fr       */
+/*   Updated: 2025/02/17 16:19:42 by ysuliman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	ft_chrdup(char c)
+char	*ft_chrdup(char input)
 {
-	char	d;
+	char	*c;
 	
-	d = c;
-	return(d);
+	c = malloc(sizeof(char)*2);
+	c[0] = input;
+	c[1] = '\0';
+	return (c);
 }

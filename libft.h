@@ -6,7 +6,7 @@
 /*   By: ysuliman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/26 15:50:27 by ysuliman          #+#    #+#             */
-/*   Updated: 2025/02/17 16:12:43 by ysuliman         ###   ########.fr       */
+/*   Updated: 2025/02/17 16:18:12 by ysuliman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ void				*ft_memmove(void *dest, const void *src, size_t num);
 void				*ft_calloc(size_t nitems, size_t size);
 size_t				ft_strlcpy(char *dest, const char *src, size_t n);
 size_t				ft_strlcat(char *dest, const char *src, size_t size);
-char					ft_chrdup(char c);
+char				*ft_chrdup(char c);
 int					ft_toupper(int c);
 int					ft_tolower(int c);
 char				*ft_strchr(const char *s, int c);
